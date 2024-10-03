@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-color: #007bff;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  @apply w-[0.4rem];
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-200 opacity-[0.5] rounded-2xl transition-all duration-[0.2s];
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-200 opacity-100;
+}

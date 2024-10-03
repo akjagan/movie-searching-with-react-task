@@ -1,0 +1,1 @@
+Hi,friends this movie searching app is created by using react , with day/night mode,with using omdb api for fetch the data, by using html,tailwindcss,with react tools like icon ,dom,axosis etc this app is an frontend app.
